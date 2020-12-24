@@ -1,0 +1,24 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "sets up all dependencies used for webpack",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "main": "app.js",
+  "author": "Chris Hadjimylos",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "roboto-fontface": "^0.10.0"
+  }
+}
